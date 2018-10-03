@@ -1,0 +1,20 @@
+body .container {
+  overflow: hidden;
+  height: 180px;
+}
+body .container .row {
+  position: relative;
+}
+body .container .row .col-md-2 {
+  height: 180px;
+  background: #346344;
+  transition: all .3s ease-out;
+  border: 1px dashed black;
+  position: absolute;
+}
+body .container .row .red {
+  background: red;
+}
+body .container .row .blue {
+  background: blue;
+}

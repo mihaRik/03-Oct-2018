@@ -1,0 +1,22 @@
+body{
+    .container{
+        overflow: hidden;
+        height: 180px;
+        .row{
+            position: relative;
+            .col-md-2{
+                height: 180px;
+                background: #346344;
+                transition: all .3s ease-out;
+                border: 1px dashed black;
+                position: absolute;
+            }
+            .red{
+                background: red;
+            }
+            .blue{
+                background: blue;
+            }
+        }
+    }
+}
